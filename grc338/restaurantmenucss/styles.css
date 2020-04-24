@@ -22,7 +22,7 @@ h2 {
 h3 {
   font-size: 2em;
   margin-left: 2em;
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 h3.appet {
   color: rgb(0, 0, 130);
@@ -59,8 +59,10 @@ ul.dessert {
 p {
  color: rgb(0, 0, 0); 
  margin-top: 0.2em;
+ margin-bottom: .2em;
 }
 p.price {
   font-style: italic;
-  margin-bottom: 1.5em;
+  margin-top: 0.2em;
+  margin-bottom: 1.2em;
 }
