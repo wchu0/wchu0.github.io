@@ -1,5 +1,12 @@
 /*CSS FILE*/
 h1 {
-  color: rgb(0, 0, 255);
+  color: rgb(0, 0, 130);
   font-family: sans-serif;
+}
+ul {
+  font-family: sans-serif;
+}
+p.price {
+  color: rgb(0, 0, 130);
+  font-style: italic;
 }
