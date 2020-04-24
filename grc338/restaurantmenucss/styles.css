@@ -4,11 +4,19 @@ h1 {
   background-color: rgb(200, 200, 220);
   font-family: sans-serif;
   text-align: center;
+  padding: (1em, 1em, 1em, 1em);
 }
 h2 {
-  size: 7em;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
 }
 ul {
+  text-align: center;
   font-family: sans-serif;
   margin-bottom: -0.5em;
 }
@@ -26,6 +34,7 @@ ul.dessert {
 }
 p {
  color: rgb(0, 0, 0); 
+ text-align: center;
 }
 p.price {
   font-style: italic;
