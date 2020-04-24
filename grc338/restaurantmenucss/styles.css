@@ -29,7 +29,7 @@ h3.entree {
   color: rgb(130, 0, 0);
 }
 h3.dessert {
-  color: rgb(130, 50, 130);
+  color: rgb(130, 100, 130);
 }
 
 /*ul*/
@@ -43,10 +43,10 @@ ul.salad {
   color: rgb(0, 130, 0);
 }
 ul.entree {
-  color: rgb(130, 0, 130);
+  color: rgb(130, 0, 0);
 }
 ul.dessert {
-  color: rgb(130, 0, 130);
+  color: rgb(130, 100, 130);
 }
 
 /*p*/
@@ -56,5 +56,5 @@ p {
 }
 p.price {
   font-style: italic;
-  margin-bottom: 2em;
+  margin-bottom: 7em;
 }
