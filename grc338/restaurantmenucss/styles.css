@@ -22,8 +22,8 @@ h2 {
 /*h3*/
 h3 {
   font-size: 2em;
+  margin-left: 2em;
   margin-top: 2.5em;
-  text-align: center;
 }
 h3.appet {
   color: rgb(0, 0, 130);
