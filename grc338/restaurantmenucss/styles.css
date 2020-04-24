@@ -6,6 +6,10 @@ h1 {
 ul {
   color: rgb(0, 0, 130);
   font-family: sans-serif;
+  margin-bottom: 0;
+}
+p {
+ color: rgb(0, 0, 0); 
 }
 p.price {
   font-style: italic;
