@@ -4,9 +4,9 @@ h1 {
   font-family: sans-serif;
 }
 ul {
+  color: rgb(0, 0, 130);
   font-family: sans-serif;
 }
 p.price {
-  color: rgb(0, 0, 130);
   font-style: italic;
 }
