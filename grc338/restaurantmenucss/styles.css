@@ -17,7 +17,7 @@ h2 {
 
 /*h3*/
 h3 {
-  
+  font-size: 1em;
 }
 h3.appet {
   color: rgb(0, 0, 130);
@@ -26,15 +26,10 @@ h3.salad {
   color: rgb(0, 130, 0);
 }
 h3.entree {
-  color: rgb(130, 0, 130);
+  color: rgb(130, 0, 0);
 }
 h3.dessert {
-  color: rgb(130, 0, 130);
-}
-
-/*h4*/
-h4 {
-  
+  color: rgb(130, 50, 130);
 }
 
 /*ul*/
