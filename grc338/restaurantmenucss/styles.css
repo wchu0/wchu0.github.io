@@ -9,6 +9,18 @@ h1 {
 h2 {
   text-align: center;
 }
+h2.appet {
+  color: rgb(0, 0, 130);
+}
+h2.salad {
+  color: rgb(0, 130, 0);
+}
+h2.entree {
+  color: rgb(130, 0, 130);
+}
+h2.dessert {
+  color: rgb(130, 0, 130);
+}
 h3 {
   text-align: center;
 }
