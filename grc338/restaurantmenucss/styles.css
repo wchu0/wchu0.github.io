@@ -56,4 +56,5 @@ p {
 }
 p.price {
   font-style: italic;
+  margin-bottom: 2em;
 }
