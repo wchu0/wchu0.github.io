@@ -1,0 +1,20 @@
+/*CSS DOCUMENT*/
+
+
+img {
+width: 100%;
+}
+
+div.ingredients{
+    width: 30%;
+    float: left;
+}
+
+div.directions{
+    width: 40%;
+    float: left;
+    margin-right: 30%
+}
+div.intro{
+    width: 70%;
+}
