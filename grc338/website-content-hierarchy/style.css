@@ -1,0 +1,109 @@
+/*CSS FILE*/
+
+img {
+    float: left;
+    
+}
+
+img.home {
+    margin-right: .5em;
+}
+
+p.home {
+     clear:both;
+    float: left;
+ margin-top: 3em;
+}
+
+p.selected {
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin-top:0em;
+    margin-left: 1.3em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p.top {
+    float:left;
+    margin-top: 0em;
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 3em;
+    color: #008080;
+}
+
+p.menuHead {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    float: left;
+    margin-top: 3em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+p.bigWords {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+p.smallWords {
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+p.price {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+h1 {
+    float: left;
+    margin-left: .5em;
+    margin-right: 1em;
+    margin-bottom: 0em;
+    font-size: 2.9em;
+}
+
+h2 {
+    clear:both;
+    float:left;
+    color: #008080;
+    font-size: em;
+}
+
+li.basicList {
+    list-style: none;
+}
+
+ul.basicList {
+    clear:both;
+    float:left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #008080;
+    margin-left: 1.3em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline;
+    float:left;
+    margin-top:3em;
+    margin-bottom: 3em;
+}
