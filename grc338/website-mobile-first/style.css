@@ -81,7 +81,7 @@ h1 {
 h2 {
     clear:both;
     float:left;
-    color: #008080;
+    /*color: #008080;*/
     font-size: 1em;
     margin-left: 2em;
     margin-bottom: 0em;
