@@ -81,8 +81,8 @@ h1 {
 h2 {
     clear:both;
     float:left;
-    /*color: #008080;*/
-    font-size: 1em;
+    color: #008080;
+    font-size: 1.3em;
     margin-left: 2em;
     margin-bottom: 0em;
 }
@@ -100,6 +100,7 @@ nav ul li a {
     text-decoration: none;
     color: #008080;
     margin-left: 1em;
+    margin-right:0em;
     font-size: 1.5em;
     font-weight: bold;
 }
