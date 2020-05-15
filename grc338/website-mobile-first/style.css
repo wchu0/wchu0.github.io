@@ -75,14 +75,14 @@ h1 {
     margin-left: .5em;
     margin-right: 1em;
     margin-bottom: 0em;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 h2 {
     clear:both;
     float:left;
     color: #008080;
-    font-size: em;
+    font-size: 1em;
     margin-left: 2em;
     margin-bottom: 0em;
 }
@@ -99,7 +99,7 @@ ul.basicList {
 nav ul li a {
     text-decoration: none;
     color: #008080;
-    margin-left: 1.3em;
+    margin-left: 1em;
     font-size: 1.5em;
     font-weight: bold;
 }
