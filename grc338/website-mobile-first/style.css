@@ -115,5 +115,7 @@ nav ul li {
     h1 {
         font-size: 2.9em;
     }
-
+    img.logo {
+        width: 15%;
+    }
 }
