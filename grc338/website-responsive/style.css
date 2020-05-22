@@ -1,0 +1,121 @@
+/*CSS FILE*/
+
+img {
+    float: left;
+    margin-right: .5em;
+}
+img.logo {
+    width: 30%;
+}
+img.bodyImg {
+    width: 45%;
+}
+
+p.body {
+    clear:both;
+    float: left;
+    margin-top: 3em;
+}
+
+a.selected {
+    float: left;
+    text-decoration: none;
+    margin-top:0em;
+    margin-left: 1.3em;
+    font-size: 1.5em;
+}
+
+p.top {
+    float:left;
+    margin-top: 0em;
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 3em;
+}
+
+p.menuHead {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    float: left;
+    margin-top: 3em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+p.bigWords {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    padding: 0;
+    margin-top: 0em;
+    margin-left: 3em;
+}
+
+p.smallWords {
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+p.price {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    padding: 0;
+    margin-left: 3em;
+}
+
+h1 {
+    float: left;
+    margin-left: .1em;
+    margin-right: .1em;
+    margin-bottom: 0em;
+    font-size: 1.5em;
+}
+
+h2 {
+    clear:both;
+    float:left;
+    color: #008080;
+    font-size: 1.3em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+}
+
+li.basicList {
+    list-style: none;
+}
+
+ul.basicList {
+    clear:both;
+    float:left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #008080;
+    margin-left: 1em;
+    margin-right:0em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline;
+    float:left;
+    margin-top:1.5em;
+    margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 25px) {
+    h1 {
+        font-size: 2.9em;
+    }
+    img.logo {
+        width: 15%;
+    }
+}
