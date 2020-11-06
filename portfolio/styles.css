@@ -1,0 +1,185 @@
+html {
+    background-color: #fafafa;
+    background: url(links/mountains-bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 20px, 0; 
+    position: relative;
+    min-height: 100%;
+}
+header, footer {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, p, ul, ol, li, a, img { /* resets default css */
+    margin: 0; 
+    padding: 0; 
+    font-size: 1em; 
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+}
+header {
+    background-color: #662D91;
+    top: 0;
+    width: 800px;
+    margin: 0 auto;
+    position: sticky;
+    columns: 50% 2;
+}
+a { /* adjusts the font color used by the a tag */
+    color: white;
+    line-height: 2em;
+    padding: 20px, 0;
+    display: block;
+    height: 100%;
+}
+nav a:hover {
+    background-color: rgba(200, 200, 250, .9);
+}
+nav li, nav ul { /* resets list styles and adjusts the display mode */
+    list-style: none;
+    display: grid;
+}
+nav > img {
+    padding: 15px 15px 15px 120px;
+    width: 200px;
+}
+nav > ul { /* affects only the main menu bar in general */
+    float: right;
+    display: block;
+    font-size: 2em; 
+    text-align: left;
+    font-weight: 300;
+    width: 400px;
+    height: 100px;
+    padding: 10px 50px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+nav > ul > li { /* affects only the main menu bar's li tags */
+    min-width: 12ch;
+    position: relative;
+    margin-left: 10px;
+    border-bottom: 5px lightgray solid;
+}
+/*
+nav li ul {
+    display: none;
+    min-width: 100%;
+    background-color: #a34cb4;
+    border-left: 5px lightgray solid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+nav li:hover ul{
+    display: block;
+}
+*/
+
+.toggle span {
+    display: none;
+}
+
+main {
+    margin: 0 auto;
+    margin-bottom: 110px;
+    margin-top: 10px;
+    background-color: #a34cb4;
+    padding: 30px;
+    width: 735px;
+    height: 100%;
+    min-height: 100%;
+    line-height: 160%;
+    max-width: 795px;
+}
+
+main p, main h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+main h1 {
+    font-size: 1.75em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #662D91;
+}
+
+footer > div {
+    margin: 0 auto;
+    left: auto;
+    columns: 50% 2;
+}
+footer > div > img {
+    position: relative;
+    float: left;
+    width: 75px;
+    margin-left: auto;
+    padding: 15px;
+}
+footer > div > ul {
+    position: relative;
+    float: left;
+    list-style: none;
+    column-count: 3;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+footer  div  ul  a:hover {
+    background-color: rgba(200, 200, 250, .9);
+}
+
+@media (max-width: 850px) {
+    main {
+        margin-top: 50px;
+        width: 80%;
+    } 
+    nav {
+        margin-top: 0;
+    } 
+    .show-menu nav {
+        margin-top: -1000px;
+    }
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    header, nav > ul {
+        display: block;
+    }
+    nav > ul {
+        width: 40%;
+        margin: auto auto;
+    }
+    nav > img {
+        margin: auto auto;
+    }
+    .toggle {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+    .toggle span {
+        display: block;
+        z-index: 2;
+        width: 30px;
+        height: 5px;
+        margin-bottom: 5px;
+        background: white;
+    }
+    .show-menu .toggle span { /* Changes the color of the hamburger icon when menu is not open; does not blend in with the background*/
+        background: #662D91; /* I could have added a bar at the top to make the hamburger menu visible, but I wanted to try this out*/
+    }
+}
